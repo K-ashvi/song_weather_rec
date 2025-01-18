@@ -1,0 +1,90 @@
+body {
+    background: linear-gradient(120deg, #0a5a2a, #ac80b9);
+    color: #ffffff;
+    font-family: "Roboto", Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1DB954;
+}
+
+input {
+    width: 80%;
+    padding: 12px;
+    margin: 15px 0;
+    border: 2px solid #1DB954;
+    border-radius: 5px;
+    background-color: #222;
+    color: white;
+    font-size: 1rem;
+}
+
+button {
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #1DB954;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #1aa34a;
+}
+
+#result {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#result h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    color: #1DB954;
+}
+
+#result p {
+    margin: 10px 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+#result ul {
+    list-style: none;
+    padding: 0;
+}
+
+#result li {
+    margin: 8px 0;
+}
+
+#result a {
+    color: #1DB954;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#result a:hover {
+    text-decoration: underline;
+}
